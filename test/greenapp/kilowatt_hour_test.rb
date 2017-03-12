@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'kilowatt_hour'
+require 'greenapp/kilowatt_hour'
 
 class KilowattHourTest < Minitest::Test
   def test_instantiates_with_a_value

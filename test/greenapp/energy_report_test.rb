@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'energy_report'
+require 'greenapp/energy_report'
 
 class EnergyReportTest < Minitest::Test
   def test_presence

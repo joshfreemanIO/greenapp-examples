@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'date_range'
+require 'greenapp/date_range'
 
 class DateRangeTest < Minitest::Test
   def test_presence
