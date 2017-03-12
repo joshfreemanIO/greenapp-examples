@@ -4,7 +4,11 @@ class DateRange
   attr_reader :start_date, :end_date
 
   class NotADateError < ArgumentError; end
-  class InvalidRangeError < ArgumentError; end
+  class InvalidRangeError < ArgumentError
+    def initialize(message = "The start date must occur before the end_date")
+      super(message)
+    end
+  end
 
   def initialize(start_date, end_date)
     @start_date = start_date
